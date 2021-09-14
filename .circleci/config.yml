@@ -4,7 +4,7 @@ executors:
     environment:
       IMAGE_NAME: s3843790/sept-take-home-2
     docker:
-      - image: s3843790/sept-take-home-2:latest
+      - image: circleci/buildpack-deps:stretch
 jobs:
   build:
     executor: docker-publisher
