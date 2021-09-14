@@ -34,7 +34,7 @@ jobs:
       - run:
           name: Publish Docker Image to Docker Hub
           command: |
-            echo "e4993dcc-917e-4ebf-8ce8-2c4f6342e917" | docker login -u "s3843790" --password-stdin
+            echo "814dca39-e09d-4f90-b4d5-ea0c58b283e4" | docker login -u "s3843790" --password-stdin
             docker push s3843790/sept-take-home-2:latest
 workflows:
   version: 2
